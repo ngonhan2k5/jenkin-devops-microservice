@@ -25,6 +25,14 @@ pipeline {
 		always {
 			echo "Cool"
 		}
+
+		success {
+			echo "Run when success"
+		}
+
+		failure {
+			echo "Run when fail"
+		}
 	}
 		
 }
