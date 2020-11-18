@@ -23,7 +23,7 @@ pipeline {
 
 	post {
 		always {
-			echp "Cool"
+			echo "Cool"
 		}
 	}
 		
